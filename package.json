@@ -1,0 +1,22 @@
+{
+  "name": "uuid-replacer",
+  "version": "1.0.0",
+  "description": "Replaces UUIDs with new values.",
+  "main": "index.js",
+  "author": "MarceloLeite2604",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "execute": "node build/index.js test-file.json",
+    "start": "yarn build; yarn execute"
+  },
+  "devDependencies": {
+    "@types/uuid": "^8.3.1",
+    "eslint": "^7.32.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@types/node": "^16.4.13",
+    "uuid": "^8.3.2"
+  }
+}

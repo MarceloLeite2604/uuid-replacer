@@ -1,0 +1,4 @@
+**/node_modules
+test-file.json
+test-file-replaced.json
+build
